@@ -16,5 +16,4 @@ services:
       - ./src:/var/www/html
       - ./php.ini:/usr/local/etc/php/php.ini
       - ./xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
-    ports:
-      - "9003:9003"
+
